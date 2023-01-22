@@ -109,9 +109,9 @@ Each of the version 2 programs include an error as well.
 
 Notes:
 - Emitting:
-![Emitting terminal script](https://github.com/ddwalk77/streaming-03-rabbitmq/blob/main/Screenshot-2023-01-22-110134-v2_emitting.png "Emitting terminal script")
+![Emitting terminal script](https://github.com/ddwalk77/streaming-03-rabbitmq/blob/main/Screenshot-2023-01-22-110134-v2-emitting.png "Emitting v2terminal script")
 - Listening:
-![Listening terminal script](https://github.com/ddwalk77/streaming-03-rabbitmq/blob/main/Screenshot-2023-01-22-110215-v2_listening.png "Listening terminal script")
+![Listening terminal script](https://github.com/ddwalk77/streaming-03-rabbitmq/blob/main/Screenshot-2023-01-22-110215-v2_listening.png "Listening v2terminal script")
 
 ## Reference
 
