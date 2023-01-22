@@ -73,9 +73,9 @@ Use your skills to keep coding enjoyable.
 
 - The queue name where both processes on both terminals are listening and emitting is called 'Hello'
 - Emitting:
-![Emitting terminal script](https://github.com/ddwalk77/streaming-03-rabbitmq/Screenshot-2023-01-22-095930-emitting.png "Emitting terminal script")
+![Emitting terminal script](https://github.com/ddwalk77/streaming-03-rabbitmq/blob/main/Screenshot-2023-01-22-095930-emitting.png "Emitting terminal script")
 - Listening:
-![Listening terminal script](https://github.com/ddwalk77/streaming-03-rabbitmq/Screenshot-2023-01-22-095844-listening.png "Listening terminal script")
+![Listening terminal script](https://github.com/ddwalk77/streaming-03-rabbitmq/blob/main/Screenshot-2023-01-22-095844-listening.png "Listening terminal script")
 
 ## Version 2
 
