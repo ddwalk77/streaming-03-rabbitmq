@@ -62,11 +62,11 @@ As long as the process is running, we cannot use this terminal for other command
 1. Did you notice you had to change the message in two places?
     1. You update the actual message sent. 
     1. You also update what is displayed to the user.
-    - Note: I did not catch this at first and though the first message was still being picked up. Once I read this I updated both places.
+    - Note: I did not catch this at first and thought the first message was still being picked up. Once I read this, I updated both places.
 1. Fix this by introducting a variable to hold the message. 
     1. Use your variable when sending. 
     1. Use the variable again when displaying to the user.
-    - Note: Code was updated to add variable 'Message' and change code to pick up the variable allowing for update in one place
+    - Note: Code was updated to add variable 'Message' and changed code to pick up the variable, allowing for update in one location
 
 To send a new message, you'll only make one change.
 Updating and improving code is called 'refactoring'. 
