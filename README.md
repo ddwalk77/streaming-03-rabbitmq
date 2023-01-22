@@ -92,16 +92,26 @@ Each of the version 2 programs include an error as well.
 1. Modify the docstrings on all your files.
 1. Include your name and the date.
 1. Imports always go at the top, just after the file docstring.
-1. Imports should be one per line - why?
+1. Imports should be one per line - why? This makes the code easier to read. It is clear what is being imported
 1. Then, define your functions.
 1. Functions are reuable logic blocks.
 1. Everything the function needs comes in through the arguments.
 1. A function may - or may not - return a value. 
 1. When we open a connection, we should close the connection. 
-1. Which of the 4 files will always close() the connection?
+1. Which of the 4 files will always close() the connection? All close the connection, but two require an interruption to abort, the listening files.
 1. Search GitHub for if __name__ == "__main__":
-1. How many hits did you get? 
+1. How many hits did you get? 531,000
 1. Learn and understand this common Python idiom.
+    - https://realpython.com/if-name-main-python/#:~:text=Nesting%20code%20under%20if%20__,defined%2C%20but%20no%20code%20executes
+    - This link has lots of information (honestly, more than I understand at this time)
+    - Allows you to execute code when the file is run as a script, but not when imported as a module
+    - Why use it? The primary reason to use the idiom is to collect user input, either through standard input or the command line; Also used for testing, but this should be in a separate file as best practice. Best at end of code, but there are other instances where this is not the case.
+
+Notes:
+- Emitting:
+![Emitting terminal script](https://github.com/ddwalk77/streaming-03-rabbitmq/blob/main/Screenshot-2023-01-22-110134-v2_emitting.png "Emitting terminal script")
+- Listening:
+![Listening terminal script](https://github.com/ddwalk77/streaming-03-rabbitmq/blob/main/Screenshot-2023-01-22-110215-v2_listening.png "Listening terminal script")
 
 ## Reference
 
