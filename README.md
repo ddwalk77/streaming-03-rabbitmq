@@ -121,3 +121,17 @@ Notes:
 ## Multiple Terminals
 
 ![Mac Example](screenshot.png)
+
+## Reflection (additional information)
+
+Think of examples where a message broker like RabbitMQ or a more advanced system like Kafka could be helpful.
+- I read this and asked myself, 'What is a message broker?'. This article has LOTS of great information: https://www.g2.com/articles/message-broker. It helped me grasp what we are doing and why.
+
+Explore Kafka (compare and contrast), and take a look at Apache Beam to see where steaming technologies are going.
+- RabbitMQ - Best suited for environments with low throughput
+- Amazon MQ - Part of AWS, cloud-based, reduces routine business tasks
+- Apache Kafka - Originally tracked website activity which required large data storage for an extended period. Excels in this area, especially for real-time data storage. Described as “distributed event streaming platform.”
+- Redis - Fast but has data loss
+- If you search, there are many other platforms...
+
+- Apache Beam - Unified batch and stream processing system. Basically multiple systems in one. Focused on real-time data.
