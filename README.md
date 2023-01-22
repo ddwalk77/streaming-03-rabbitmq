@@ -1,3 +1,5 @@
+# Name: DeeDee Walker
+
 # streaming-03-rabbitmq
 
 Get started with RabbitMQ, a message broker, that enables multiple processes to communicate reliably through an intermediary
@@ -32,13 +34,17 @@ Get started with RabbitMQ, a message broker, that enables multiple processes to 
 You'll need to fix an error in the program to get it to run.
 Once it runs and finishes, we can reuse the terminal.
 
+    - Notes: I did not have to fix an error. It appears to run without an issue, showing 'Hello World' as sent.
+
 ## Version 1 - Execute the Consumer/Listener
 
 1. Read v1_listen_for_messages.py (and the tutorial)
 1. Run the file.
 
 You'll need to fix an error in the program to get it to run.
+ - Made correction and the program ran successfully
 Once it runs successfully, will it terminate on its own? How do you know? 
+ - The program continues to run and listen until you abort in the terminal. You know this because the drive prompt never appears.
 As long as the process is running, we cannot use this terminal for other commands. 
 
 ## Version 1 - Open a New Terminal / Emit More Messages
@@ -54,14 +60,22 @@ As long as the process is running, we cannot use this terminal for other command
 
 1. Did you notice you had to change the message in two places?
     1. You update the actual message sent. 
-    1. You also update what is displayed to the user. 
+    1. You also update what is displayed to the user.
+    - I did not catch this at first and though the first message was still being picked up. Once I read this I updated both places.
 1. Fix this by introducting a variable to hold the message. 
     1. Use your variable when sending. 
-    1. Use the variable again when displaying to the user. 
+    1. Use the variable again when displaying to the user.
+    - Code was updated to add variable 'Message' and change code to pick up the variable allowing for update in one place
 
 To send a new message, you'll only make one change.
 Updating and improving code is called 'refactoring'. 
 Use your skills to keep coding enjoyable. 
+
+- The queue name where both processes on both terminals are listening and emitting is called 'Hello'
+- Emitting:
+![Emitting terminal script](https://github.com/ddwalk77/streaming-03-rabbitmq/Screenshot-2023-01-22-095930-emitting.png "Emitting terminal script")
+- Listening:
+![Listening terminal script](https://github.com/ddwalk77/streaming-03-rabbitmq/Screenshot-2023-01-22-095844-listening.png "Listening terminal script")
 
 ## Version 2
 

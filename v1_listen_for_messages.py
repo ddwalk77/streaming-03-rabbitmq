@@ -4,6 +4,10 @@ Always customize this docstring.
 
 Add your name, date, and a description of the program.
 
+Name: DeeDee Walker 
+Date: 1/22/2023
+Ran emit_message so there was a message to receive.
+
 Listens for messages on the queue.
 This process runs continously. 
 
@@ -34,7 +38,7 @@ import pika, sys, os
 # define a main function to run the program
 def main():
     # create a blocking connection to the RabbitMQ server
-    connection = pika.BlockingConnection(pika.ConnectionParameters(host='LocalHostt'))
+    connection = pika.BlockingConnection(pika.ConnectionParameters(host='LocalHost'))
     # use the connection to create a communication channel
     channel = connection.channel()
     # use the channel to declare a queue
