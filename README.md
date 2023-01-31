@@ -107,12 +107,6 @@ Each of the version 2 programs include an error as well.
     - Allows you to execute code when the file is run as a script, but not when imported as a module
     - Why use it? The primary reason to use the idiom is to collect user input, either through standard input or the command line; Also used for testing, but this should be in a separate file as best practice. Best at end of code, but there are other instances where this is not the case.
 
-Notes:
-- Emitting:
-![Emitting terminal script](https://github.com/ddwalk77/streaming-03-rabbitmq/blob/main/Screenshot-2023-01-22-110134-v2-emitting.png "Emitting v2terminal script")
-- Listening:
-![Listening terminal script](https://github.com/ddwalk77/streaming-03-rabbitmq/blob/main/Screenshot-2023-01-22-110215-v2_listening.png "Listening v2terminal script")
-
 ## Reference
 
 - [RabbitMQ Tutorial - Hello, World!](https://www.rabbitmq.com/tutorials/tutorial-one-python.html)
@@ -120,7 +114,13 @@ Notes:
 
 ## Multiple Terminals
 
-![Mac Example](screenshot.png)
+Notes:
+- Emitting:
+![Emitting terminal script](https://github.com/ddwalk77/streaming-03-rabbitmq/blob/main/Screenshot-2023-01-22-110134-v2-emitting.png "Emitting v2terminal script")
+- Listening:
+![Listening terminal script](https://github.com/ddwalk77/streaming-03-rabbitmq/blob/main/Screenshot-2023-01-22-110215-v2_listening.png "Listening v2terminal script")
+- Multiples Screens:
+![Listening terminal script](https://github.com/ddwalk77/streaming-03-rabbitmq/blob/main/multiple.png "Multiple Terminals")
 
 ## Reflection (additional information)
 
