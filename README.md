@@ -1,9 +1,3 @@
-# Name: DeeDee Walker
-
-# streaming-03-rabbitmq
-
-Get started with RabbitMQ, a message broker, that enables multiple processes to communicate reliably through an intermediary
-
 ## Before You Begin
 
 1. Fork this starter repo into your GitHub.
